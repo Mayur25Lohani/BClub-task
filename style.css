@@ -179,9 +179,41 @@ button:hover {
   background-color: green;
   color: white;
 }
+.container3{
+  background-color: #020001;
+  margin:auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer{
+  background-color: black;
+  padding: 40px;
+}
+.footer-col{
+  width: 25%;
+  padding:15px;
+}
+.footer-col h4{
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 35px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: relative;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  color: lightseagreen;
+  text-decoration: none;
+  font-weight: 300;
+  margin-left: -40px;
+}
 
-
-@media (max-width: 500px) {
+@media (max-width: 767px) {
   nav{
     width: 100px;
   }
@@ -208,5 +240,14 @@ button:hover {
       margin: auto;
       float: none;
       display: block;
+  }
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .footer-col{
+    width: 100%;
   }
 }
